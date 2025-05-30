@@ -79,15 +79,10 @@ main ProgramaEjemplo() {
 |                | `Boolean id = expr;`            | Declara e inicializa variable booleana.     |
 | Asignación     | `id = expr;`                    | Asigna valor a variable existente.          |
 | Entrada        | `string id = input("mensaje");` | Lee texto de consola.                       |
-| Salida         | `echo(expr[, expr…]);`          | Imprime en consola.                         |
+| Salida         | `echo("mensaje");`              | Imprime en consola.                         |
 | For Loop       | `for (init, cond, step) { … }`  | Bucle con inicialización, condición y paso. |
 | While Loop     | `while (cond) { … }`            | Bucle condicionado.                         |
 | Condicional    | `if (cond) { … }`               | Ejecuta bloque si `cond` es verdadera.      |
 | Comentario     | `// comentario`                 | Ignorado por el lexer.                      |
-
-> **⚠️ Notas sobre `expr`:**
->
-> * Soporta aritmética y comparaciones.
-> * Precedencia: `()`, `++/--/!`, `*//`, `+-`, comparadores, `=`.
 
 ---
