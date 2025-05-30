@@ -86,3 +86,6 @@ main ProgramaEjemplo() {
 | Comentario     | `// comentario`                 | Ignorado por el lexer.                      |
 
 ---
+
+## Automata Final
+![final](https://github.com/user-attachments/assets/559fc06e-a753-43e9-95f1-bbf5705225bf)
