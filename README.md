@@ -91,5 +91,3 @@ main ProgramaEjemplo() {
 > * Precedencia: `()`, `++/--/!`, `*//`, `+-`, comparadores, `=`.
 
 ---
-
-> 🚀 **¡Listo!** Esta documentación estilizada puede integrarse directamente en tu `README.md` para guiar a desarrolladores y usuarios del mini-lenguaje.
