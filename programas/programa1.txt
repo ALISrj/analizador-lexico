@@ -1,0 +1,28 @@
+main prueba() {
+	
+	number a = 10;
+	string cadena = "Hola Mundo";
+	boolean bandera = True;
+
+	_a = 20;
+	cadena = '';
+	bandera = False;
+
+	for ( number i = 0 , i < 10, i++) {
+		echo("Hola mundo" + i);
+	
+	}
+	// Esto es un comentario
+
+	while ( bandera ) {
+		a = 2 + (10 * 6/3 - 1);
+		if ( a == 40 ) {
+			bandera = false;
+		}
+		echo(a)
+	}
+
+	string nombre = input("Dime tu nombre");
+	echo("Hola " + nombre);
+
+}

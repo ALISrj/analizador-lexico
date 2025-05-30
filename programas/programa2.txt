@@ -1,0 +1,60 @@
+// ← comentario completo al inicio
+main prueba() {
+    // Identificadores válidos
+    number a = 10;
+    string cadena = "Hola Mundo";
+    boolean bandera = True;
+
+    // Asignar con cadena vacía, comillas simples y dobles
+    cadena = "";
+    cadena = '';
+    cadena = "Escapa ' comillas";
+    cadena = 'Escapa " comillas';
+
+    // Flotantes válidos
+    float1 = 0.1;
+    float2 = .5;
+    float3 = 10.;    // dependiendo de la definición, puede aceptarse o no
+    float4 = 0.12222;
+
+    // Incremento y decremento
+    a++;
+    a--;
+    ++a;
+    --a;
+
+    // Operadores compuestos y simples
+    a = a + 1;
+    if (a == 42 and bandera != False or a >= 10 and a <= 50) {
+        echo("Condición compuesta");
+    }
+
+
+    // Comentario de línea en medio de código
+    valor = 5; // este comentario ignóralo
+
+    // Bucle for con virgulas y paréntesis
+    for (number i = 0, i < 10, i++) {
+        echo("Item " + i);
+    }
+
+    // Bucle while
+    while (bandera) {
+        a = 2 + (10 * 6/3 - 1);
+        if (a == 40) {
+            bandera = false;
+        }
+        echo(a);
+    }
+
+    // Llamada a función con string y variable
+    string nombre = input("Dime tu nombre");
+    echo("Hola " + nombre);
+
+    // Casos de error
+    _invalido = 123;    // identificador que empieza con _
+    9var = 1;           // identificador que empieza con dígito
+    palabra~ = 2;       // carácter no reconocido (~)
+    cadena_incompleta = "Sin cerrar;  // sin cerrar la comilla
+    numero_malo = .;    // punto aislado
+}
