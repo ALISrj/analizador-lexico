@@ -23,7 +23,7 @@ token_specs = [
     # — cadenas entre comillas dobles o simples
     ('CADENA',    r'"[^"\n]*"'  r"|'[^'\n]*'"),
     # — flotantes: 123.456 | .456 | 456.
-    ('DECIMAL',     r'\d+\.\d*|\.\d+'),
+    ('DECIMAL',    r'\d+\.\d+|\.\d+'),
     # — enteros
     ('ENTERO',       r'\d+'),
     # — operadores compuestos
